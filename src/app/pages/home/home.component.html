@@ -1,0 +1,35 @@
+<div class="container dets">
+  <div>
+  <mat-list>
+    <div mat-subheader class="listHeader">About Me</div>
+    <mat-list-item *ngFor="let folder of folders">
+      <!-- <mat-icon mat-list-icon>label_important</mat-icon> -->
+      <div mat-line class="hdr">{{folder.question}}</div>
+      <div mat-line class="info"> {{folder.answer}} </div>
+      <mat-divider></mat-divider>
+    </mat-list-item>
+
+  </mat-list>
+</div>
+</div>
+
+
+<div class="container">
+  <div>
+    <table mat-table [dataSource]="dataSource">
+
+      <ng-container matColumnDef="skillName">
+        <th mat-header-cell *matHeaderCellDef> Skills </th>
+        <td mat-cell *matCellDef="let element"> {{element.skillName}} </td>
+      </ng-container>
+
+      <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+      <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+    </table>
+
+  </div>
+
+</div>
+<div class="container chart">
+  <app-skill-chart></app-skill-chart>
+</div>

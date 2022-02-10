@@ -1,0 +1,54 @@
+{
+  "skills": [
+    {
+      "skillName": "HTML5",
+      "years": 5,
+      "id": 1
+    },
+    {
+      "skillName": "CSS3",
+      "years": 4,
+      "id": 2
+    },
+    {
+      "skillName": "JavaScript",
+      "years": 2,
+      "id": 3
+    },
+    {
+      "skillName": "Angular",
+      "years": 1,
+      "id": 4
+    },
+    {
+      "skillName": "ReactJS",
+      "years": 1,
+      "id": 5
+    },
+    {
+      "skillName": "MySQL",
+      "years": 2,
+      "id": 6
+    },
+    {
+      "skillName": "C#",
+      "years": 2,
+      "id": 7
+    },
+    {
+      "skillName": "JAVA",
+      "years": 2,
+      "id": 8
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

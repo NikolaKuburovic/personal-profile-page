@@ -1,0 +1,48 @@
+.container{
+    .listHeader{
+        font-size:1.3rem;
+        text-align: center;
+        background-color: #01b7ff;
+        color: #fff;
+    }
+    mat-list{
+        text-align: center;
+    }
+    mat-list-item{
+        .hdr{
+            font-size: 1rem;
+            text-transform: uppercase;
+            font-weight: 500;
+            color: #01b7ff;
+        }
+        .info{
+            font-size: 1rem;
+            font-weight: 200;
+        }
+        margin-bottom: 1rem;
+    }
+}
+table {
+    width: 100%;
+    text-align: center;
+    th{
+        font-size: 1.3rem;
+        background-color: #01b7ff;
+        color: #fff;
+    }
+    td{
+        color: #354052;
+        font-size: 1rem;
+        font-weight: 200;
+    }
+}
+
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+app-skill-chart{
+    margin: 0 auto;
+}

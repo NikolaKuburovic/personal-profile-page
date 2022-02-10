@@ -1,0 +1,50 @@
+table {
+    width: 100%;
+    th{
+        font-size: 1.1rem;
+        background-color: #01b7ff;
+        color: #fff;
+    }
+    td{
+        color: #354052;
+        font-size: 1rem;
+        font-weight: 200;
+    }
+}
+.mat-stroked-button{
+    font-weight: 200;
+    font-size: 1rem;
+    margin-bottom:10px;
+    border-color: #01b7ff;
+    color: #01b7ff;
+}
+
+.mat-stroked-button:hover{
+    background-color: #01b7ff;;
+    color:#fff;
+}
+
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+}
+.mat-flat-button{
+    background-color: #01b7ff;
+    color:#fff;
+}
+.mat-flat-button:hover{
+    background-color: #05a8e9;
+}
+.btn-edit{
+    color: lightgray;
+}
+.btn-edit:hover{
+    color: #01b7ff;
+}
+
+.btn-del{
+    color: lightgray;
+}
+.btn-del:hover{
+    color: rgb(207, 0, 0)
+}

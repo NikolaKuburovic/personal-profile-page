@@ -1,0 +1,63 @@
+.navbar{
+    color: #ddd;
+    img{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border-radius: 50%;
+        width: 140px;
+    }
+    .candidate{
+        text-align: center;
+        h2{
+            color: #ddd;
+            font-weight: 600;
+        }
+        p{
+            color: #70d7ff;
+        }
+        margin-bottom: 60px;
+    }
+    overflow-x: hidden;
+}
+
+.menu{
+    margin: 0 15px;
+
+    .menu-btn{
+        display:block;
+        position:relative;
+        width: 100%;
+        display: flex;
+        margin-bottom: 20px;
+        padding-left: 30px;
+    }
+    .menu-btn span{
+        //color:#01b7ff;
+        margin-left: 10px;
+    }
+    .menu-btn:hover{
+        background-color: #516380;
+        span{
+            color:#fff;
+        }
+    }
+    .menu-btn:focus{
+        background-color: #01b7ff;
+        color:#354052;
+        span{
+            color:#354052;
+        }
+    }
+}
+.active{
+    background-color: #01b7ff;
+    color:#354052;
+    span{
+        color:#354052;
+    }
+}
+
+button, a{
+    color:#ddd;
+    text-decoration: none;
+}

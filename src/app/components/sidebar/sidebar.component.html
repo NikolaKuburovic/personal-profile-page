@@ -1,0 +1,22 @@
+<div class="navbar">
+    <div class="candidate">
+        <img src="../../../assets/images/candidate-photo.jpg">
+        <h2>Nikola Kuburovic</h2>
+        <p>Front-End Developer</p>
+    </div>
+    <div class="menu">
+        <button mat-button class="menu-btn" [routerLink]="['/home']" routerLinkActive="active">
+            <mat-icon>recent_actors</mat-icon>
+            <span>Home</span>
+        </button>
+        <button mat-button class="menu-btn" [routerLink]="['/skills']" routerLinkActive="active">
+            <mat-icon>view_list</mat-icon>
+            <span>Skills</span>
+        </button>
+        <a href="/gallery.html">
+        <button mat-button class="menu-btn">
+            <mat-icon>photo_library</mat-icon>
+            <span>Gallery</span>
+        </button></a>
+    </div>
+</div>
